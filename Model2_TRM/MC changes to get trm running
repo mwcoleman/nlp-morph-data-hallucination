@@ -1,0 +1,9 @@
+Copied example.sh to base directory (neural-transducer)
+modified so only 3 lang run. 
+
+
+copied the canonicalized language sets to ./task0-data/processed
+
+have not augmented data yet
+
+

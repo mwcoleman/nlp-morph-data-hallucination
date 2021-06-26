@@ -1,0 +1,13 @@
+train path = ../data/swa/swa.trn.r
+test path = ../data/swa/swa.dev.r
+INPUT_DIM = 100
+HIDDEN_DIM = 100
+FEAT_INPUT_DIM = 20
+EPOCHS = 20
+LAYERS = 2
+MAX_PREDICTION_LEN = 50
+OPTIMIZATION = ADADELTA
+PATIENCE = 100
+REGULARIZATION = 0.0
+LEARNING_RATE = 0.0001
+Prediction Accuracy = 1.0
