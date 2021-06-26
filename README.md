@@ -6,6 +6,7 @@ to this challenge. In recent years, neural networks have been without a doubt th
 achieved state of the art performance on a wide variety of challenges, including morphological reinflection.
 
 ### Baseline systems
+(non neural naive baselines: ~30% accuracy './non-neural alignment models/'
 
 1. Hard-Attention model (Aharoni & Goldberg, 2017) - With and without data augmentation
 2. Character level transduction with the Transformer model (Wu et al, 2020) - With and without data augmentation
