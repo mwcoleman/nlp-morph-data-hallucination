@@ -1,4 +1,4 @@
-Note: a detailed project report is (here)[report.pdf]
+Note: a detailed project report is [here](report.pdf)
 
 ## Morphological inflection using transformers and n-gram data hallucination
 
