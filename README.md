@@ -29,3 +29,9 @@ data in its entirety, the latter is where the sequence can be made up of recursi
 - (providing it does not conflict with the above choices) a maximum sequence length may be specified (e.g. when
 compositional, we may implement a strict character-level unigram model if desired)
 - Multiple ‘stems’ can be replaced, it is possible to specify a minimum length criteria for stem replacement (default is 2)
+
+
+### Usage (data augmentation)
+
+`python ngram_hall.py [lang] [output_version_name] [target dataset size]`  
+(There are additional optional parameters, see the report for info)
