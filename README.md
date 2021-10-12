@@ -15,12 +15,10 @@ achieved state of the art performance on a wide variety of challenges, including
 
 ### Data augmentation
 
-The contribution in this project is the development of an n-gram model data hallucination approach to augment low resource 
-(<1000 inflection pairs) training data sets. Average performance (accuracy) increased by ~2%.
+The contribution of this project is the development of an n-gram model data hallucination approach to augment low resource 
+(<1000 inflection pairs) datasets by replacing substrings with others common to the dataset. Average performance (accuracy) increased by ~2%.
 
-Sampling of sequences are without replacement from a categorical distribution utilising a markov model (over
-observed sequences in the original training data), where the probability of a replacement is conditioned on the preceding
-n-characters (i.e. ngram)
+Sampling of substring sequences is conducted without replacement from a categorical distribution, where the probability of a replacement is conditioned on the preceding n-characters (i.e. ngram)
 
 Replacement sequences can have the following flexible characterstics:
 - They can be k +/- m characters long, where k is the original sequence length, and m <= n
